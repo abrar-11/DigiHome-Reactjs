@@ -1,0 +1,37 @@
+.clients_wrapper{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.client_box {
+    width: 22%;
+    height: 5rem;
+    margin: 0.3rem;
+    background: #FFFFFF;
+    /* border: 1px solid red; */
+    box-shadow: 0px 20px 50px rgba(49, 49, 49, 0.05);
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.client_box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width : 900px){
+    .clients_wrapper{
+        justify-content: space-evenly !important;
+    }
+}
+
+  
+  @media screen and (max-width : 550px){
+  
+  }
+  
